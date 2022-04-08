@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*-- ----menu-section------*/
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0 #868585;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-right: 5px;
+    padding: 5px 7px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.user-ariya {
+    margin: 0px 5px;
+}
+.hero-section{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    background-image: linear-gradient(to right, #f8d01b00, #f8d01b85);
+}
+/* ---hero-section----- */
+.hero-text{
+    font-size: 1.8rem;
+    width: 50%;
+    line-height: 1.5;
+}
+.hero-text p{
+    font-size: 16px;
+}
+.hero-btn{
+    background-color: #F8D11B;
+}
+.hero-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+/* ----exist-section----- */
+.exist-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.grids-body{
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #868585;
+}
+.grids-body img{
+    width: 270px;
+    border-radius: 10px;
+}
+.grid-para{
+    margin: 10px;
+}
+/* -----product-section----- */
+.product{
+    margin-top: 25px;
+}

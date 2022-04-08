@@ -1,0 +1,82 @@
+.container {
+    padding: 0 5%;
+}
+
+.btn-primary {
+    border: 1px solid #333458;
+    padding: 8px 25px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.btn-primary:hover {
+    background-color: #333458;
+    transition: 1s linear;
+}
+
+.btn-primary a {
+    text-decoration: none;
+}
+
+.btn-primary a:hover {
+    color: white;
+}
+
+.icon {
+    font-size: 20px;
+    padding-right: 39px;
+}
+
+.m {
+    margin-right: 5px;
+}
+
+span {
+    color: #F8D11B;
+}
+
+.common-header {
+    color: #333458;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 54px;
+}
+
+.common-para {
+    display: flex;
+    align-items: center;
+}
+
+.common-p {
+    width: 80%;
+}
+
+.exixt-btn {
+    width: 20%;
+    text-align: end;
+}
+hr{
+    margin: 30px 0px;
+    height: 1px;
+}
+.section-btn {
+    background-color: #333458;
+    border: 1px solid #333458;
+    padding: 8px 25px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.section-btn:hover {
+    background-color:#F8D11B;
+    transition: 1s linear;
+}
+.section-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-btn a:hover {
+    color: #333458;
+}
