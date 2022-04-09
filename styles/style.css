@@ -84,7 +84,7 @@
 
 .grids-body img {
     width: 270px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .grid-para {
@@ -110,7 +110,7 @@
 }
 
 .product-grids-body>img {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     width: 380px;
     height: 354px;
 }
@@ -129,8 +129,8 @@
 /* -----how-it-works------ */
 .how-it-works{
     margin-top: 50px;
-    margin-bottom: 15px;
 }
+/* -------works-and-review-section-header-start----- */
 .work-and-review-section-header{
     display: flex;
     flex-direction: column;
@@ -146,6 +146,7 @@
     font-size: 16px;
     width: 60%;
 }
+/* -------works-and-review-section-header-end----- */
 .work-section-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -182,4 +183,77 @@
 }
 .review{
     margin-top: 60px;
+}
+/* ------review-section----- */
+.review-card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.review-card{
+    box-shadow: 0 0 10px 0 #868585;
+    border-radius: 10px;
+}
+.review-card-style{
+    font-size: 80px;
+    text-align: right;
+    margin: 10px;
+    color: #E7E7E7;
+}
+.review-para{
+    display: flex;
+    margin: -70px 15px 15px 15px;
+    align-items: center;
+}
+.review-para-img img{
+    border-radius: 50%;
+    width: 60px;
+}
+.reviewr-name-deg{
+    margin: 15px;
+}
+.review-card-text{
+    margin: 15px;
+}
+.rating{
+    margin: 15px;;
+}
+.rating i{
+    color: #F8D11B
+}
+/* -----owner-section------ */
+.owner-section{
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+.owner-header{
+    text-align: center;
+    color: #333458;
+    margin-bottom: 130px;
+}
+.owner-card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+.owner-card{
+    box-shadow: 0 0 10px 0 #868585;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.owner-card-img img{
+    margin-top: -80px;
+    width: 150px;
+}
+.owner-social-icon{
+    margin: 25px auto;
+}
+.name-desig{
+    width: 100%;
+    background-color:#F8D11B;
+    padding: 15px 0px 25px 0px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px ;
 }
