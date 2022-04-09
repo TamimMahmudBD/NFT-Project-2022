@@ -14,7 +14,7 @@
 }
 
 .logo img {
-    width: 70px;
+    width: 60px;
 }
 
 .nav-menu {
@@ -66,6 +66,9 @@
 }
 
 /* ----exist-section----- */
+.exist{
+    margin-top: 50PX;
+}
 .exist-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -90,7 +93,7 @@
 
 /* -----product-section----- */
 .product {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .product-grid {
@@ -99,8 +102,8 @@
 }
 
 .product-grids-body {
-    width: 380px;
-    height: 354px;
+    /* width: 380px;
+    height: 354px; */
     margin: auto;
     box-shadow: 0 0 10px 0 #868585;
     border-radius: 10px;
@@ -122,4 +125,61 @@
     width: 60px;
     border-radius: 50px;
     margin-right: 15px;
+}
+/* -----how-it-works------ */
+.how-it-works{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.work-and-review-section-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+}
+.work-and-review-section-header h2{
+    color: #333458;
+    line-height: 55px;
+}
+.work-and-review-section-header p{
+    font-size: 16px;
+    width: 60%;
+}
+.work-section-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.work-card{
+    box-shadow: 0 0 10px 0 #868585;
+    border-radius: 10px;
+}
+.work-card-sl{
+    text-align: right;
+    padding: 25px;
+    margin-bottom: -30px;
+    font-size: 50px;
+    color: rgb(253 246 231);
+}
+.work-card-icon{
+    display: inline-block;
+    border-radius: 10px;
+    margin: -45px 5px 0px 25px;
+    padding: 15px;
+    font-size: 45px;
+    background-color: #F8D11B;
+}
+.work-card-text{
+    color: #333458;
+    margin: 15px 5px 0px 25px;
+}
+.work-card-text h2{
+    margin: 40px 0px 40px 0px;
+}
+.work-card-text p{
+    margin: 10px 0px 57px 0px;
+}
+.review{
+    margin-top: 60px;
 }
