@@ -80,6 +80,7 @@
     width: 270px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #868585;
+    cursor: pointer;
 }
 
 .grids-body img {
@@ -107,6 +108,7 @@
     margin: auto;
     box-shadow: 0 0 10px 0 #868585;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .product-grids-body>img {
@@ -155,6 +157,7 @@
 .work-card{
     box-shadow: 0 0 10px 0 #868585;
     border-radius: 10px;
+    cursor: pointer;
 }
 .work-card-sl{
     text-align: right;
@@ -242,6 +245,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .owner-card-img img{
     margin-top: -80px;
@@ -252,8 +256,90 @@
 }
 .name-desig{
     width: 100%;
-    background-color:#F8D11B;
+    background-color:#F3F3F3;;
     padding: 15px 0px 25px 0px;
     text-align: center;
     border-radius: 0px 0px 10px 10px ;
+}
+.name-desig:hover{
+    transition: 1s linear;
+    background-color: #F8D11B;
+}
+.details-btn-section{
+    margin: 50px 0px;
+    text-align: center;
+}
+button{
+    border: none;
+}
+.details-btn{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #333458;
+    background-color: #333458;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 35px;
+    margin: 0px 5px;
+}
+/* -------brand-section------ */
+.brand-box-ariya{
+    display: block;
+    position: relative;
+    margin: 0px 7.5% -68px 7.5%;
+    border-top: 15px solid #F8D11B;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.brand-section{
+    margin: 0px -10%;
+    padding: 0px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333458;
+    background-color: #F3F3F3;
+}
+.brand-ariya{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    cursor: pointer;
+}
+.brand-devider{
+    margin: 0px 25px;
+    display: inline-block;
+    height: 40px;
+    width: 2px;
+    background-color: #333458;
+}
+/* -----footer-section-------- */
+footer{
+    background-color: #262626;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: #ffff;
+}
+.footer-short-bio img{
+    width: 60px;
+    padding: 15px 0px 10px 0px;
+}
+.footer-col{
+    margin: 60px 0px 40px 0px;
+    width: 25%;
+}
+.footer-short-bio{
+    padding-right: 20px;
+}
+.footer-link ul li{
+    list-style: none;
+}
+.copyright-ariya{
+    padding-bottom: 25px;
+    text-align: left;
+    color: white;
 }
