@@ -1,0 +1,206 @@
+@media screen and (min-width: 980px) and (max-width: 1250px) {
+    .hero-section {
+        height: 75vh;
+    }
+
+    .hero-text {
+        font-size: 1.2rem;
+    }
+
+    .hero-img {
+        height: 216px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    .grids-body {
+        width: 200px;
+    }
+
+    .grids-body img {
+        width: 200px;
+    }
+
+    .product-grids-body>img {
+        border-radius: 10px 10px 0px 0px;
+        width: 230px;
+        height: 224px;
+    }
+
+    .brand-box-ariya {
+        margin: 0px 7.5% -42px 7.5%;
+    }
+
+    .brand-img-name img {
+        width: 60px;
+    }
+
+    .brand-devider {
+        margin-left: 65px;
+    }
+
+    .brand-ariya {
+        margin: 13px;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 980px) {
+    .container {
+        padding: 0% 5%;
+    }
+
+    .hero-section {
+        height: 75vh;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
+
+    .hero-img {
+        height: 216px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    .grids-body {
+        width: 140px;
+    }
+
+    .grids-body img {
+        width: 140px;
+    }
+
+    .product-grids-body>img {
+        border-radius: 10px 10px 0px 0px;
+        width: 224px;
+        height: 202px;
+    }
+
+    .brand-box-ariya {
+        margin: 0px 7.5% -42px 7.5%;
+    }
+
+    .brand-img-name img {
+        width: 60px;
+    }
+
+    .brand-devider {
+        margin-left: 65px;
+    }
+
+    .brand-ariya {
+        margin: 13px;
+    }
+
+    .owner-card {
+        height: 230px;
+    }
+
+    .name-desig h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen  and (max-width: 680px) {
+    .logo img {
+        width: 40px;
+    }
+    .nav-menu li a{
+        font-size: 12px;
+    }
+    .user-ariya{
+        display: none;
+    }
+    .hero-section {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-text{
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-img img{
+        width: 250px;
+    }
+    .common-header{
+        text-align: center;
+    }
+    .common-para {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .exist-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grids-body {
+        width: 100%;
+    }
+
+    .grids-body img {
+        width: 100%;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .product-grids-body>img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .work-section-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .review-card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .owner-card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px
+    }
+    .owner-card{
+        margin-top: 85px;
+    }
+    .brand-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px
+    }
+    .brand-devider{
+        display: none;
+    }
+    .footer-content{
+        display: flex;
+    flex-direction: column;
+    }
+    .footer-col{
+        text-align: center;
+        width: 100%;
+        margin: 62px 0px 1px 0px;
+    }
+    .copyright-ariya{
+        text-align: center;
+    }
+}
