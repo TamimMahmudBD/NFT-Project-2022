@@ -148,6 +148,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .exixt-btn{
+        margin-top: 20px;
+    }
     .grids-body {
         width: 100%;
     }

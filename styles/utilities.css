@@ -17,7 +17,9 @@
 .btn-primary a {
     text-decoration: none;
 }
-
+button a{
+    white-space: nowrap;
+}
 .btn-primary a:hover {
     color: white;
 }
