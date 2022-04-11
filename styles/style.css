@@ -79,8 +79,12 @@
 .grids-body {
     width: 270px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 #868585;
+    border: 1px solid #33345831;
     cursor: pointer;
+}
+.grids-body:hover{
+    transition: .5s linear;
+    box-shadow: 0 0 10px 0 #868585;
 }
 
 .grids-body img {
@@ -106,11 +110,14 @@
     /* width: 380px;
     height: 354px; */
     margin: auto;
-    box-shadow: 0 0 10px 0 #868585;
+    border: 1px solid #33345831;
     border-radius: 10px;
     cursor: pointer;
 }
-
+.product-grids-body:hover{
+    transition: .5s linear;
+    box-shadow: 0 0 10px 0 #868585;
+}
 .product-grids-body>img {
     border-radius: 10px 10px 0px 0px;
     width: 380px;
@@ -155,9 +162,13 @@
     grid-gap: 25px;
 }
 .work-card{
-    box-shadow: 0 0 10px 0 #868585;
     border-radius: 10px;
     cursor: pointer;
+    border: 1px solid #33345831;
+}
+.work-card:hover{
+    transition: .5s linear;
+    box-shadow: 0 0 10px 0 #868585;
 }
 .work-card-sl{
     text-align: right;
@@ -194,8 +205,12 @@
     grid-gap: 25px;
 }
 .review-card{
-    box-shadow: 0 0 10px 0 #868585;
+    border: 1px solid #33345831;
     border-radius: 10px;
+}
+.review-card:hover{
+    transition: .5s linear;
+    box-shadow: 0 0 10px 0 #868585;
 }
 .review-card-style{
     font-size: 80px;
@@ -240,12 +255,16 @@
     grid-gap: 25px;
 }
 .owner-card{
-    box-shadow: 0 0 10px 0 #868585;
+    border: 1px solid #33345831;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+}
+.owner-card:hover{
+    transition: .5s linear;
+    box-shadow: 0 0 10px 0 #868585;
 }
 .owner-card-img img{
     margin-top: -80px;
